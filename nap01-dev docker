@@ -1,0 +1,50 @@
+ done
+
+server started
+
+CREATE DATABASE
+
+
+
+/usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+
+
+waiting for server to shut down...2025-07-06 19:06:39.693 UTC [48] LOG:  received fast shutdown request
+
+.2025-07-06 19:06:39.700 UTC [48] LOG:  aborting any active transactions
+
+2025-07-06 19:06:39.709 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+
+2025-07-06 19:06:39.712 UTC [49] LOG:  shutting down
+
+2025-07-06 19:06:39.719 UTC [49] LOG:  checkpoint starting: shutdown immediate
+
+2025-07-06 19:06:40.149 UTC [49] LOG:  checkpoint complete: wrote 921 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.092 s, sync=0.314 s, total=0.438 s; sync files=301, longest=0.007 s, average=0.002 s; distance=4238 kB, estimate=4238 kB; lsn=0/1908978, redo lsn=0/1908978
+
+2025-07-06 19:06:40.176 UTC [48] LOG:  database system is shut down
+
+ done
+
+server stopped
+
+
+PostgreSQL init process complete; ready for start up.
+
+
+2025-07-06 19:06:40.296 UTC [1] LOG:  starting PostgreSQL 17.5 (Debian 17.5-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+
+2025-07-06 19:06:40.298 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+
+2025-07-06 19:06:40.298 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+
+2025-07-06 19:06:40.313 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+
+2025-07-06 19:06:40.335 UTC [64] LOG:  database system was shut down at 2025-07-06 19:06:40 UTC
+
+2025-07-06 19:06:40.358 UTC [1] LOG:  database system is ready to accept connections
+
+2025-07-06 19:11:40.388 UTC [62] LOG:  checkpoint starting: time
+
+2025-07-06 19:11:44.904 UTC [62] LOG:  checkpoint complete: wrote 47 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.444 s, sync=0.024 s, total=4.517 s; sync files=12, longest=0.008 s, average=0.002 s; distance=269 kB, estimate=269 kB; lsn=0/194C090, redo lsn=0/194C038
+
+
